@@ -35,7 +35,7 @@ namespace Hpdi.HashLib
 
         public Crc32(uint poly, uint initial, uint final)
         {
-            this.table = GenerateTable(poly);
+            //this.table = GenerateTable(poly);
             this.initial = initial;
             this.final = final;
         }
